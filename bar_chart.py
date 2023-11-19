@@ -1,4 +1,4 @@
-#This Python file creates a histogram where the X-axis
+#This Python file creates a bar chart where the X-axis
 # is the sectors in which transport strikes occur
 
 import matplotlib.pyplot as plt
