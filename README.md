@@ -13,11 +13,15 @@ Install the python packages present in the `requirements.txt` file
     pip3 install -r requirements.txt
 
 ## Number of transport strikes 2014-2020
+![](https://raw.githubusercontent.com/Gangelo99/transport-strikes-italy/main/graph/number_of_transport_strikes.png)
 The `histogram.py` file creates a histogram where the X axis is the year
 while the Y axis is the number of transport strikes that occurred in that year.  This python script also use the `strikes_number_per_year.py` present in the module directory.
 
 ## Transport sectors where strikes occurred
+![](https://raw.githubusercontent.com/Gangelo99/transport-strikes-italy/main/graph/strikes_across_sectors.png)
+![](https://raw.githubusercontent.com/Gangelo99/transport-strikes-italy/main/graph/strikes_across_sectors_pie_chart.png)
 The `bar_chart.py` and `pie_chart.py` files creates the two graphs about the numbers of strikes occured in	various sectors of transport. This python script also use the `strikes_number_per_sectors.py` present in the module directory.
 
 ## Strikes in Italy by region
+![](https://raw.githubusercontent.com/Gangelo99/transport-strikes-italy/main/graph/choropleth_map.png)
 The `choropleth_map.py` file create an choropleth map about of the number of strikes occured in every region of Italy. This python script also use the `strikes_number_by_region.py` present in the module directory.
