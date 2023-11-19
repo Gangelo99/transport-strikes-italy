@@ -2,7 +2,7 @@
 # is the sectors in which transport strikes occur
 
 import matplotlib.pyplot as plt
-from module.strikes_number_per_categories import grouped_df
+from module.strikes_number_per_sectors import grouped_df
 from module.font import font_title, font_labels, font_ticks
 
 print(grouped_df)

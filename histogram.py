@@ -24,7 +24,7 @@ addlabels(years_list, strikes_number_list)
 
 plt.ylim(200, 850)
 plt.xlabel('Year', fontdict=font_labels, labelpad=20)
-plt.ylabel('Numbers of transport protest', fontdict=font_labels, labelpad=20)
+plt.ylabel('N. of transport protest', fontdict=font_labels, labelpad=20)
 plt.xticks(size=20)
 plt.yticks(size=15)
 plt.tick_params(axis='x', pad=10)

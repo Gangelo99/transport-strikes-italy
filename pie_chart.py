@@ -1,7 +1,7 @@
 #### AGGIUNGERE
 
 import matplotlib.pyplot as plt
-from module.strikes_number_per_categories import grouped_df
+from module.strikes_number_per_sectors import grouped_df
 from module.font import font_title
 
 print(grouped_df)
