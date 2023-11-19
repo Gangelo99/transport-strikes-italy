@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 from module.strikes_number_per_year import grouped_df
-from font import font_title, font_labels, font_ticks
+from module.font import font_title, font_labels, font_ticks
 
 years_list = grouped_df['dataInizio'].tolist()
 strikes_number_list = grouped_df['NumeroScioperi'].tolist()

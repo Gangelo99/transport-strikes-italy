@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 from module.strikes_number_per_categories import grouped_df
-from font import font_title, font_labels, font_ticks
+from module.font import font_title, font_labels, font_ticks
 
 print(grouped_df)
 

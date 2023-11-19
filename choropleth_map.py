@@ -26,6 +26,8 @@ fig = px.choropleth_mapbox(
     range_color=(0, 600),
     labels={"Classificazione sismica sicilia"},
 )
-fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
-fig.update_geos(fitbounds="locations", visible=True)
+
+
+fig.update_geos(fitbounds="locations", visible=False)
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 fig.show()
