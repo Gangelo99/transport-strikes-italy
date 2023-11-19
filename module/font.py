@@ -1,8 +1,8 @@
 # This font is for x and y labels
-font_labels = {'family': 'serif',
+font_labels = {'family': 'sans-serif',
                'color': 'darkred',
-               'weight': 'normal',
-               'size': 20,
+               'weight': 'light',
+               'size': 16,
                }
 
 # This font is for the title of the plot
