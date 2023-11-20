@@ -23,5 +23,5 @@ while the Y axis is the number of transport strikes that occurred in that year. 
 The `bar_chart.py` and `pie_chart.py` files creates the two graphs about the numbers of strikes occured in	various sectors of transport. This python script also use the `strikes_number_per_sectors.py` present in the module directory.
 
 ## Strikes in Italy by region
-![](https://raw.githubusercontent.com/Gangelo99/transport-strikes-italy/main/graph/choropleth_map.png)
+![](https://github.com/Gangelo99/transport-strikes-italy/blob/main/graph/choropleth_map_alternative.png?raw=true)
 The `choropleth_map.py` file create an choropleth map about of the number of strikes occured in every region of Italy. This python script also use the `strikes_number_by_region.py` present in the module directory.
