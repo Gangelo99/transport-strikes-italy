@@ -14,7 +14,8 @@ fig = px.choropleth_mapbox(
     featureidkey='properties.reg_name',
     center=dict(lat=41.871941, lon=12.567380),
     color="NumeroScioperi",
-    color_continuous_scale="Jet",
+    # color_continuous_scale="Jet",
+    color_continuous_scale=[[0, 'green'], [0.5, 'yellow'], [1, 'red']], #Alternative Version
     mapbox_style="white-bg",
     zoom=4.9,
     range_color=(0, 600)
